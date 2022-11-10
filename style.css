@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#card{
+    position: relative;
+}
+
+#input {
+    margin: 20px 35px 20px 35px;
+    min-height: 25px;
+}
+
+#search {
+    margin: 20px 35px 20px 35px;
+    min-height: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.hidenCard {
+    top: 100px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+
+.imgMenu {
+    margin: 20px 35px 20px 35px;
+    min-height: 25px;
+}
+
+.header {
+    margin: 0 auto;
+    min-height: 100vh;
+    min-width: 100vh;
+
+}
+
+.header_roof {
+    background-color: black;
+    height: 10vh;
+
+}
+
+.header_roof_menu {
+    margin: 0 auto;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_roof_menu_left {
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    height: 40px;
+}
+
+.header_roof_menu_right {
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    height: 25px;
+}
+
+.header_body {
+    height: 90vh;
+    background-color:rgba(241, 228, 230, 1);
+}
+
+.container_header_body {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+}
+
+.left_header_body {
+    max-width: 50%;
+}
+
+.img_header_body {
+    height: 90vh;
+}
+
+.theBrandFirstSpan {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.theBrandSecondSpan {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.fashion {
+    font-family: Lato;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgba(241, 109, 127, 1);
+}
+
+.theBrand {
+    padding-left: 16px;
+    border-left: 12px solid rgba(241, 109, 127, 1) ;
+}
+
+.right_header_body {
+    margin: auto;
+    height: 100px;
+}
+
+.body {
+    height: 1000px;
+}
+
+.itemContainer {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.items {
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 360px;
+    height: 580px;
+}
+
+.itemImg {
+    width: 360px;
+    height: 420px;
+    margin-bottom: 25px;
+}
+
+.itemName {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.itemDescription {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-bottom: 18px;
+}
+
+.itemPrice {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    color: #F16D7F;
+}
