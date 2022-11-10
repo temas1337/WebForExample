@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+
+.myBtnActive {
+    transform: scale(0.9)
+}
+.transition {
+    transition: 0.5s;
+}
+.myBtn:hover {
+    background-color: #F26376;
+    color: white;
+}
+
+.myBtn {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #F26376;
+    margin: 50px auto;
+    width: 210px;
+    height: 50px;
+    border: 1px solid #ff6a6a;
+    background-color: white;
+    text-align: center;
+}
+
 #card{
     position: relative;
 }
@@ -127,8 +155,12 @@
 }
 
 .itemContainer {
+
     width: 1140px;
-    margin: 0 auto;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .items {

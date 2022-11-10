@@ -3,6 +3,7 @@ const cart = document.getElementById('card');
 const input = document.getElementById('input');
 const search = document.getElementById('search');
 const items = document.getElementById('items')
+const btn = document.getElementById('btn')
 
 const arrayItems = []
 arrayItems[0] = {
@@ -93,4 +94,13 @@ document.addEventListener('click', (e) => {
         input.classList.remove('hide');
         search.classList.add('hide');
     }
+})
+
+const clear = function () {
+    btn.classList.remove('myBtnActive')
+}
+
+btn.addEventListener('click', () => {
+    btn.classList.add('myBtnActive')
+    setTimeout(clear, 200)
 })
