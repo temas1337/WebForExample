@@ -1,5 +1,5 @@
-const hideCart = document.getElementById('hidenCard');
-const cart = document.getElementById('card');
+const hideMenu = document.getElementById('hidenMenu');
+const menu = document.getElementById('menu');
 const input = document.getElementById('input');
 const search = document.getElementById('search');
 const items = document.getElementById('items')
@@ -79,15 +79,14 @@ function inner (e) {
 }
 
 
-cart.addEventListener("click", () => {
-    hideCart.classList.toggle('hide')
+menu.addEventListener("click", () => {
+    hideMenu.classList.toggle('hide')
 })
 
 
 
 document.addEventListener('click', (e) => {
     if (e.target.className != "search" ) {
-        console.log('HUY')
         input.classList.add('hide');
         search.classList.remove('hide');
     } else {

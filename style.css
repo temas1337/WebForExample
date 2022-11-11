@@ -25,8 +25,7 @@
 
     color: #F26376;
     margin: 50px auto;
-    width: 210px;
-    height: 50px;
+   padding: 15px 40px;
     border: 1px solid #ff6a6a;
     background-color: white;
     text-align: center;
@@ -50,11 +49,12 @@
     display: none;
 }
 
-.hidenCard {
-    top: 100px;
+.hidenMenu {
+    top: 10vh;
+    left: 80vw;
     position: absolute;
-    width: 400px;
-    height: 400px;
+    min-width: 20vw;
+    min-height: 90vh;
     background-color: white;
 }
 
@@ -93,6 +93,42 @@
     display: flex;
     margin: 20px 0px 20px 0px;
     height: 25px;
+}
+
+.menuTitle {
+    margin: 35px 0 25px 35px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.menuListTitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 12px 33px;
+    color: #F16D7F;
+}
+
+.menuListItem {
+    list-style-type: none ;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 11px;
+    margin-left: 55px;
+    color: #6F6E6E;
+}
+
+.menuListItem:hover {
+    color: rgba(241, 109, 127, 1);
 }
 
 .header_body {
