@@ -36,12 +36,12 @@
 }
 
 #input {
-    margin: 20px 35px 20px 35px;
+    margin: 10px 35px 10px 35px;
     min-height: 25px;
 }
 
 #search {
-    margin: 20px 35px 20px 35px;
+    margin: 10px 35px 10px 35px;
     min-height: 25px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .imgMenu {
-    margin: 20px 35px 20px 35px;
+    margin: 0 35px 0 35px;
     min-height: 25px;
 }
 
@@ -113,6 +113,7 @@
     line-height: 17px;
     margin: 0 0 12px 33px;
     color: #F16D7F;
+    list-style-type: none ;
 }
 
 .menuListItem {

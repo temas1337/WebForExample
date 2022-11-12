@@ -73,7 +73,7 @@ function inner (e) {
     
     <div class="itemImg"> <img src=${e.image} alt="">
     
-    <div class="addToCart"> <img src="img/cart.png"> ADD TO CART</div>
+    <div class="addToCart"> <img src="img/cart.png" alt="whatever"> ADD TO CART</div>
     </div>
     <div class="itemName"> ${e.name} </div>
     <div class="itemDescription"> ${e.description} </div>
