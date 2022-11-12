@@ -67,12 +67,18 @@ arrayItems.forEach(inner)
 
 function inner (e) {
     let row = document.createElement('div')
+
     row.className = 'item'
         let ones = `
-    <div class="itemImg"> <img src=${e.image} alt=""></div>
+    
+    <div class="itemImg"> <img src=${e.image} alt="">
+    
+    <div class="addToCart"> <img src="img/cart.png"> ADD TO CART</div>
+    </div>
     <div class="itemName"> ${e.name} </div>
     <div class="itemDescription"> ${e.description} </div>
     <div class="itemPrice"> ${e.price}</div>
+    <div class="darknes"></div>
     `
     items.append(row)
     row.innerHTML = ones
