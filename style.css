@@ -36,12 +36,12 @@
 }
 
 #input {
-    margin: 10px 35px 10px 35px;
+    margin: 20px 35px 20px 35px;
     min-height: 25px;
 }
 
 #search {
-    margin: 10px 35px 10px 35px;
+    margin: 20px 35px 20px 35px;
     min-height: 25px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .imgMenu {
-    margin: 0 35px 0 35px;
+    margin: 20px 35px 20px 35px;
     min-height: 25px;
 }
 
@@ -72,7 +72,7 @@
 
 .header_roof {
     background-color: black;
-    height: 10vh;
+    min-height: 10vh;
 
 }
 
@@ -95,6 +95,112 @@
     height: 25px;
 }
 
+.forBack {
+    background-color: #F8F3F4;
+}
+
+.form {
+    width: 1140px;
+    display: flex;
+    margin: 65px auto;
+}
+
+.inputText{
+    margin-right: 20px;
+}
+
+.invisible {
+    width: 100px;
+}
+
+.underForm{
+    font-family: 'Lato',serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.change{
+    display: flex;
+    margin-bottom: 35px;
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.changeInput{
+    border: 1px solid #A4A4A4;
+    margin-right: 10px;
+
+}
+
+.FormInput {
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 45px;
+    border: 1px solid #A4A4A4;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.formLeft {
+    max-width: 50%;
+    margin-right: 120px;
+}
+
+.png {
+    width: 20px;
+    height: 16px;
+    margin-right: 20px;
+    margin-bottom: 28px;
+}
+
+.textForm {
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    margin-bottom: 16px;
+}
+
+.rightText {
+    display: flex;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.headTitle {
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    min-height: 20vh;
+    padding-top: 5vh;
+
+}
+
 .menuTitle {
     margin: 35px 0 25px 35px;
     font-family: 'Lato', serif;
@@ -113,7 +219,6 @@
     line-height: 17px;
     margin: 0 0 12px 33px;
     color: #F16D7F;
-    list-style-type: none ;
 }
 
 .menuListItem {

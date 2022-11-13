@@ -66,10 +66,11 @@ arrayItems.forEach(inner)
 
 
 function inner (e) {
+if (items != null) {
     let row = document.createElement('div')
 
     row.className = 'item'
-        let ones = `
+    let ones = `
     
     <div class="itemImg"> <img src=${e.image} alt="">
     
@@ -84,6 +85,8 @@ function inner (e) {
     row.innerHTML = ones
 }
 
+}
+
 
 menu.addEventListener("click", () => {
     hideMenu.classList.toggle('hide')
@@ -92,20 +95,24 @@ menu.addEventListener("click", () => {
 
 
 document.addEventListener('click', (e) => {
-    if (e.target.className != "search" ) {
-        input.classList.add('hide');
-        search.classList.remove('hide');
-    } else {
-        input.classList.remove('hide');
-        search.classList.add('hide');
-    }
+      if (e.target.className != "search" ) {
+          input.classList.add('hide');
+          search.classList.remove('hide');
+      } else {
+          input.classList.remove('hide');
+          search.classList.add('hide');
+      }
+
+
 })
 
 const clear = function () {
     btn.classList.remove('myBtnActive')
 }
 
-btn.addEventListener('click', () => {
-    btn.classList.add('myBtnActive')
-    setTimeout(clear, 200)
-})
+if (btn != null){
+    btn.addEventListener('click', () => {
+        btn.classList.add('myBtnActive')
+        setTimeout(clear, 200)
+    })
+}
